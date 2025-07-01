@@ -1,7 +1,7 @@
 import os
 
 
-def copy_file(command: None) -> None:
+def copy_file(command: str) -> None:
     command_parts = command.strip().split(" ")
     if len(command_parts) != 3 or command_parts[0] != "cp":
         return
